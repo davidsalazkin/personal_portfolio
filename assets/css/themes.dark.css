@@ -116,6 +116,10 @@ hr,
   color: #575859;
 }
 
+.fab {
+  color: #575859;
+}
+
 /* Social Buttons */
 .t-social-button {
   background: #3f4040;
@@ -126,11 +130,19 @@ hr,
   color: #717273;
 }
 
+.t-social-button .fab {
+  color: #717273;
+}
+
 .t-social-button:hover {
   background: #323333;
 }
 
 .t-social-button:hover .fa {
+  color: #e0a80d;
+}
+
+.t-social-button:hover .fab {
   color: #e0a80d;
 }
 
