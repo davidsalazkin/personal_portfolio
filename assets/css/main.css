@@ -2461,4 +2461,7 @@ img[height] {
   display: none !important;
 }
 
+#more {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
