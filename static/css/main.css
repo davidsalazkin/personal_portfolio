@@ -1,0 +1,131 @@
+body
+{
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #2d2e2e;
+    color: #979899;
+    opacity: 1;
+    transition: 2s opacity;
+}
+
+body.fade-out
+{
+    opacity: 0;
+    transition: none;
+}
+
+hr
+{
+    border-color: #404242;
+}
+
+h1,
+h2,
+h3
+{
+    color: #a4a5a6;
+    font-weight: 300;
+}
+
+p
+{
+    color: #a4a5a6;
+    background-color: transparent;
+}
+
+a
+{
+    color: #6699CC;
+    transition: all .15s linear;
+}
+
+a:active,
+a:hover
+{
+    color: #fefaee;
+    text-decoration: none;
+}
+
+.technology
+{
+    word-spacing: 9px
+}
+
+/* Terminal */
+@import url('https://fonts.googleapis.com/css?family=Rubik:300|Ubuntu+Mono|VT323');
+
+.circle
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 4px 7px 1px 0px;
+    float: left;
+}
+
+.red
+{
+    background-color: #FC605C;
+    border: solid 1px #E14946;
+}
+
+.yellow
+{
+    background-color: #FDBC40;
+    border: solid 1px #E0A234;
+}
+
+.green
+{
+    background-color: #34C749;
+    border: solid 1px #27AD36;
+}
+
+.input
+{
+    color: #C7C7C7;
+}
+.string
+{
+    color: #FFF1B7;
+}
+
+#terminal-titlebar
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: #E3E3E3;
+    border-radius: 4px 4px 0px 0px;
+    padding: 1px 9px 0px 6px;
+    height: 18px;
+    max-width: 800px;
+}
+
+#terminal
+{
+    font-size: 14px;
+    background-color: #333333;
+    color: #CCCCCC;
+    font-family: "Ubuntu Mono", monospace;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 4px 4px;
+    line-height: 100%;
+    max-width: 800px;
+}
+
+#terminal a
+{
+    color: #DDFFFF;
+}
+
+#terminal a:hover
+{
+    text-decoration: underline;
+}
